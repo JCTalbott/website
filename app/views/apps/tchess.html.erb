@@ -1,0 +1,9 @@
+<h1>TChess</h1>
+
+<div id="chessboard">
+  <% @squares.each do |sq| %>
+    <div id=<%= sq %> class="square"> <%= image_tag('chesspiece_w_king.png', size: 50) %> </div>
+  <% end %>
+</div>
+
+<button id="tactic_generator">Generate Tactic</button>
