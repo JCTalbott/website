@@ -11,4 +11,10 @@ class PagesController < ApplicationController
   def articles
     @articles = Article.all
   end
+
+  def interests
+  end
+
+  def music
+  end
 end
